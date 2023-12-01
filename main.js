@@ -3,7 +3,7 @@ function changeBtnName()  {
     = document.getElementById('sent1');
   
   const html 
-    = '<div> Damon is handsome. </div>';
+    = '<h1> Damon is handsome. </h1>';
   
   btnElement.innerHTML = html;
 }

@@ -4,6 +4,7 @@ body {
 }
 
 #texts {
+  font-family: 'Work Sans';
   width: 400px;
   margin: 0 auto;
 }

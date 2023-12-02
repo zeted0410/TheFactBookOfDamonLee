@@ -1,10 +1,9 @@
-function changeBtnName()  {
-  var i="0"
-  if(i=="0") {
-    document.getElementById("sent1").innerHTML = "Damon is handsome"
-    i="1"
-  } else {
-    document.getElementById("sent1").innerHTML = "Damon is the ugliest person in the world."
-    i="0"
-  }
-}
+const texts = document.querySelectorAll('#texts p');
+
+texts.forEach(text => {
+  text.style.opacity = 0;
+  
+  setTimeout(() => {
+    text.style.opacity = 1;
+  }, 100 * text.innerHTML.length);
+});
